@@ -1,0 +1,56 @@
+@import 'scss/variables/index.scss';
+
+.pd-header {
+  background: $pd-color-black;
+  color: $pd-color-white;
+  padding: 10px 0;
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+
+  & + .block {
+    height: 80px;
+  }
+
+  a {
+    &:hover {
+      color: $pd-color-gray;
+    }
+  }
+
+  &-logo {
+    padding: $spacing-sm 0;
+    width: 100%;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  .menu-icon {
+    float: right;
+    font-size: 25px;
+  }
+
+  &-right {
+    text-align: center;
+
+    .menu-list {
+      display: flex;
+      font-size: 17px;
+      justify-content: space-between;
+      margin: 0px;
+      padding: 0px;
+
+      .active {
+        border-bottom: solid 1px white;
+        display: inline-block;
+      }
+
+      li {
+        list-style: none;
+        padding-bottom: 2px;
+      }
+    }
+  }
+}

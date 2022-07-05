@@ -1,0 +1,19 @@
+@import 'scss/variables/index';
+
+@media only screen and (min-width: $big-tablet) {
+  .pd-home {
+    &-about-us {
+      .background-image-desktop {
+        min-height: 500px;
+      }
+
+      .text-container {
+        text-align: left;
+
+        .title-2 {
+          margin-bottom: 30px;
+        }
+      }
+    }
+  }
+}

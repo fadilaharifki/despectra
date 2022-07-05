@@ -1,0 +1,33 @@
+@import 'scss/mixins/index.scss';
+
+.pd-home {
+  &-private-events {
+    .image-container {
+      height: 500px;
+      position: relative;
+
+      img {
+        width: 100%;
+      }
+    }
+
+    .text-container {
+      bottom: 50px;
+      position: absolute;
+      text-align: center;
+
+      .title-2 {
+        margin-bottom: 10px;
+      }
+    }
+
+    .pd-button {
+      margin-top: 24px;
+    }
+  }
+  .abs-center {
+    @include abs-center;
+  }
+}
+
+@import './media-query';

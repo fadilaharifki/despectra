@@ -1,0 +1,73 @@
+@import 'scss/variables/index.scss';
+
+.pd-home {
+  &-event-promo {
+    .current-event {
+      color: $pd-color-white;
+      text-align: center;
+    }
+
+    .event {
+      .date,
+      .title-3 {
+        display: none;
+      }
+    }
+
+    .title-2 {
+      margin-bottom: 40px;
+      text-align: center;
+
+      u {
+        border-bottom: solid 3px $pd-color-white;
+        text-decoration: none;
+      }
+    }
+
+    .background-image-desktop {
+      height: initial !important;
+
+      .image-container {
+        text-align: center;
+        margin: 0 auto;
+        padding: 25px;
+
+        img {
+          width: 100%;
+        }
+      }
+    }
+
+    .slick-center {
+      .event-image-container {
+        transform: scale(1.2, 1.2);
+        transform-origin: 0 0;
+      }
+
+      .event {
+        .text-container {
+          margin-top: 30px;
+
+          .date,
+          .title-3 {
+            display: block;
+          }
+        }
+      }
+    }
+
+    .event {
+      color: $pd-color-white;
+      margin-top: 50px;
+      text-align: center;
+
+      &-image-container {
+        padding: 0 20px;
+
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+}

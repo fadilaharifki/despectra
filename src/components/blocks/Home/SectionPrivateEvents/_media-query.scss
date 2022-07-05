@@ -1,0 +1,34 @@
+@import 'scss/variables/index';
+
+@media only screen and (min-width: $big-tablet) {
+  .pd-home {
+    &-private-events {
+      .image-container {
+        height: initial;
+      }
+
+      .text-container {
+        position: initial;
+        text-align: left;
+
+        .title-2 {
+          margin-bottom: 30px;
+        }
+      }
+
+      .pd-button {
+        margin-top: 32px;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: $tablet) {
+  .pd-home {
+    &-private-events {
+      .image-container {
+        height: 620px;
+      }
+    }
+  }
+}

@@ -1,0 +1,19 @@
+@import 'scss/variables/color';
+
+.pd-button {
+  height: 40px !important;
+  font-weight: bold !important;
+  padding: 0 35px !important;
+
+  &-gold {
+    background-color: $pd-color-gold !important;
+    border: $pd-color-white !important;
+    color: $pd-color-white !important;
+  }
+
+  &-gray {
+    background-color: $pd-color-gray !important;
+    border: $pd-color-white !important;
+    color: $pd-color-white !important;
+  }
+}

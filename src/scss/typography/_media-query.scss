@@ -1,0 +1,38 @@
+@import 'scss/mixins/screen';
+@import 'scss/variables/index';
+
+@media only screen and (min-width: $tablet) {
+  .title {
+    &-1 {
+      font-size: 50px;
+    }
+    &-2 {
+      font-size: 25px;
+    }
+    &-3 {
+      font-size: 20px;
+    }
+  }
+
+  .description {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (min-width: $desktop) {
+  .title {
+    &-1 {
+      font-size: 60px;
+    }
+    &-2 {
+      font-size: 36px;
+    }
+    &-3 {
+      font-size: 24px;
+    }
+  }
+
+  .description {
+    font-size: 16px;
+  }
+}

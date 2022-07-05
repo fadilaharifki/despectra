@@ -1,0 +1,29 @@
+@import 'scss/variables/index.scss';
+
+.pd-home {
+  &-hours {
+    background-color: $pd-color-purple;
+    color: $pd-color-white;
+    text-align: center;
+
+    .hour-container {
+      .image {
+        height: 75px;
+
+        img {
+          height: 100%;
+        }
+      }
+
+      .title-3 {
+        font-size: 20px;
+        font-weight: bold;
+        margin: 20px 0 5px;
+      }
+
+      .description {
+        font-size: 18px;
+      }
+    }
+  }
+}

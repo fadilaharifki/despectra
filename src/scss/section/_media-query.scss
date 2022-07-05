@@ -1,0 +1,7 @@
+@import 'scss/variables/index';
+
+@media only screen and (min-width: $big-tablet) {
+  .section {
+    padding: 5vw 0;
+  }
+}

@@ -1,0 +1,21 @@
+.title {
+  &-1 {
+    font-size: 24px;
+  }
+  &-2 {
+    font-size: 20px;
+  }
+  &-3 {
+    font-size: 18px;
+  }
+}
+
+.description {
+  font-size: 14px;
+  line-height: 26px;
+  &-lato {
+    font-family: 'Lato', sans-serif;
+  }
+}
+
+@import './media-query';

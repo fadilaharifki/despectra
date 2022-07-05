@@ -1,0 +1,20 @@
+.pd-home {
+  &-about-us {
+    .background-image-desktop {
+      align-items: center;
+      display: flex;
+      min-height: 400px;
+    }
+
+    .text-container {
+      height: 100%;
+      text-align: center;
+
+      .title-2 {
+        margin-bottom: 10px;
+      }
+    }
+  }
+}
+
+@import './media-query';

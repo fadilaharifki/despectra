@@ -1,0 +1,103 @@
+@import 'scss/mixins/index.scss';
+@import 'scss/section/index.scss';
+@import 'scss/variables/index.scss';
+
+.pd-home {
+  &-rooms {
+    background-color: $pd-color-purple;
+    color: $pd-color-white;
+
+    &-image {
+      img {
+        width: 100%;
+      }
+    }
+
+    &-card {
+      border-radius: 15px;
+      cursor: pointer;
+      padding: 0px;
+
+      &:hover {
+        background-color: rgba(#2b2b2b, 0.5);
+      }
+
+      .text-container {
+        background-color: rgba(#2b2b2b, 0.5);
+        padding: 16px;
+      }
+
+      .room-thumbnail {
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+      }
+
+      &-active {
+        background-color: rgba(#2b2b2b, 1);
+      }
+
+      .user {
+        .icon {
+          font-size: 22px;
+        }
+
+        .user-count {
+          display: inline-block;
+          font-size: 16px;
+          margin-left: 10px;
+        }
+      }
+    }
+
+    .title-2 {
+      margin-bottom: 20px;
+
+      u {
+        border-bottom: solid 3px $pd-color-gold;
+        text-decoration: none;
+      }
+    }
+
+    .title-3 {
+      font-weight: bold;
+      margin: 10px 0;
+    }
+
+    .ant-carousel {
+      div {
+        height: 200px;
+      }
+      img {
+        height: 100%;
+        object-fit: cover;
+        width: 100%;
+      }
+
+      .slick {
+        &-prev {
+          left: -2px;
+          z-index: 1;
+
+          &::before {
+            font-size: 35px;
+          }
+        }
+        &-next {
+          right: 13px;
+          z-index: 0;
+
+          &::before {
+            font-size: 35px;
+          }
+        }
+      }
+    }
+
+    .slick-dots li button:before {
+      display: none;
+    }
+  }
+}
+
+@import './media-query';

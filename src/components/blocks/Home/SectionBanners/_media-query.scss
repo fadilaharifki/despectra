@@ -1,0 +1,25 @@
+@import 'scss/variables/index';
+
+@media only screen and (min-width: $tablet) {
+  .pd-home {
+    &-banners {
+      div {
+        height: 420px;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: $big-tablet) {
+  .pd-home {
+    &-banners {
+      div {
+        height: initial;
+      }
+
+      .slick-list {
+        height: 49vw;
+      }
+    }
+  }
+}

@@ -1,0 +1,9 @@
+.background-image-desktop {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 9vw 0;
+  width: 100%;
+}
+
+@import './media-query';

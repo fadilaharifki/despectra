@@ -1,0 +1,25 @@
+.pd-home {
+  &-premium-room {
+    .background-image-desktop {
+      height: 145vw;
+    }
+
+    .image-container {
+      img {
+        width: 100%;
+      }
+    }
+
+    .text-container {
+      position: relative;
+      text-align: center;
+      top: 250px;
+
+      .title-2 {
+        margin-bottom: 10px;
+      }
+    }
+  }
+}
+
+@import './media-query';

@@ -1,0 +1,30 @@
+@import 'scss/variables/index';
+
+@media only screen and (min-width: $big-tablet) {
+  .pd-home {
+    &-premium-room {
+      .text-container {
+        position: initial;
+        text-align: left;
+
+        .title-2 {
+          margin-bottom: 30px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: $tablet) {
+  .pd-home {
+    &-premium-room {
+      .background-image-desktop {
+        height: 75vw;
+      }
+
+      .text-container {
+        top: 343px;
+      }
+    }
+  }
+}

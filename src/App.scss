@@ -1,0 +1,29 @@
+@import 'scss/buttons/index';
+@import 'scss/images/index';
+@import 'scss/mixins/index';
+@import 'scss/section/index';
+@import 'scss/typography/index';
+@import 'scss/utils/index';
+@import 'scss/variables/index';
+
+body {
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+}
+
+button {
+  font-size: 15px !important;
+  font-weight: bold !important;
+}
+
+a {
+  color: inherit;
+
+  &:hover {
+    color: $primary-color;
+  }
+}
+
+p {
+  margin: 0px;
+}

@@ -1,0 +1,79 @@
+@import 'scss/variables/index.scss';
+
+.pd-footer {
+  background: $pd-color-purple;
+  color: $pd-color-white;
+  padding: $spacing-lg 0;
+
+  &-form {
+    .pd-button {
+      width: 100%;
+    }
+
+    .ant-input {
+      background: transparent !important;
+      color: $pd-color-white;
+    }
+  }
+
+  &-logo {
+    width: 98px;
+  }
+
+  a {
+    &:hover {
+      color: $pd-color-white;
+    }
+  }
+
+  .ant-row {
+    margin-bottom: $spacing-lg;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  .no-margin {
+    margin: 0 0 10px !important;
+    line-height: 1;
+  }
+  .title-2 {
+    font-weight: bold;
+    margin: 15px 0 10px;
+  }
+
+  .list {
+    display: block;
+    padding: 0px;
+
+    .location {
+      margin-top: 15px;
+
+      & a:hover {
+        text-decoration: underline;
+      }
+
+      .icon-map {
+        display: inline-block;
+        margin-right: 15px;
+      }
+    }
+
+    .social-media {
+      display: flex;
+
+      .list {
+        font-size: 25px;
+
+        &:not(:first-of-type) {
+          margin-left: 20px;
+        }
+      }
+    }
+
+    li {
+      list-style: none;
+    }
+  }
+}

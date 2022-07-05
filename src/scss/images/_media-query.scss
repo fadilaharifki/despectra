@@ -1,0 +1,8 @@
+@import 'scss/variables/index';
+
+@media only screen and (min-width: $big-tablet) {
+  .background-image-desktop {
+    height: 50vw !important;
+    padding: 0;
+  }
+}

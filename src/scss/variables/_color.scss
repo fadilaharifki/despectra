@@ -1,0 +1,9 @@
+$pd-color-white: #ffffff;
+$pd-color-black: #000000;
+$pd-color-gold: #856616;
+$pd-color-gray: #9b9b9b;
+
+$pd-color-purple: #110017;
+
+$primary-color: $pd-color-gold;
+$secondary-color: lighten($primary-color, 20);

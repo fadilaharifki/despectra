@@ -1,0 +1,28 @@
+@import 'scss/variables/index';
+
+@media only screen and (min-width: $big-tablet) {
+  .pd-home {
+    &-rooms {
+      &-card {
+        border-radius: 0px;
+        padding: 20px 33px 15px 10px;
+
+        .user {
+          .icon {
+            font-size: 28px;
+          }
+
+          &-count {
+            font-size: 22px;
+          }
+        }
+      }
+
+      .ant-carousel {
+        div {
+          height: 400px;
+        }
+      }
+    }
+  }
+}

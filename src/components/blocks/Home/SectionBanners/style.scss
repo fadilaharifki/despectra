@@ -1,0 +1,53 @@
+@import 'scss/variables/index';
+
+.pd-home {
+  &-banners {
+    div {
+      height: 250px;
+    }
+
+    .slick-list {
+      height: initial;
+    }
+
+    &-gradient {
+      background: rgba(0, 0, 0, 0.4);
+      height: 100%;
+      width: 100%;
+    }
+
+    &-container {
+      position: relative;
+
+      .banner-image {
+        img {
+          height: 100%;
+          object-fit: cover;
+          width: 100%;
+        }
+      }
+
+      .banner-title {
+        align-items: center;
+        display: flex;
+        height: 100%;
+        justify-content: center;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        .title-1 {
+          background: -webkit-linear-gradient(
+            left,
+            $pd-color-white,
+            $pd-color-gold
+          );
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          -webkit-filter: drop-shadow(3px 3px rgba(0, 0, 0, 0.33));
+        }
+      }
+    }
+  }
+}
+
+@import './media-query';
